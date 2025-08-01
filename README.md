@@ -10,4 +10,6 @@
 
 
 ## 2. Code Coverage 최종 측정결과 캡쳐화면
+![img_1.png](img_1.png)
+
 ![img.png](img.png)
