@@ -1,6 +1,5 @@
 package mission2.file;
 
-import mission2.Attendance_mission2;
 import mission2.day.Day;
 import mission2.score.ScoreCalculator;
 import mission2.score.ScorePerson;
@@ -13,7 +12,7 @@ import java.util.Map;
 
 public class FileProcess {
     private final Map<String, ScorePerson> personMap = new HashMap<>();
-    private String path;
+    private final String path;
 
 
     public FileProcess(String path) {

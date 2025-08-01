@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GradeEvaluator {
-    private List<GradeInterface> gradeList = new ArrayList<>();
+    private final List<GradeInterface> gradeList = new ArrayList<>();
 
     public GradeEvaluator() {
         gradeList.add(new GoldGrade());
