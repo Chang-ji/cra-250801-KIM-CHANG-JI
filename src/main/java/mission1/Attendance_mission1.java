@@ -172,7 +172,7 @@ public class Attendance_mission1 {
     }
 
     private static boolean isWednesdaysMoreThen10Times(int i) {
-        return dat[i][3] > 9;
+        return dat[i][2] > 9;
     }
 
     private static boolean isWeekendMoreThen10Times(int i) {
