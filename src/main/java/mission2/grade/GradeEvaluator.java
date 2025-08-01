@@ -25,7 +25,6 @@ public class GradeEvaluator {
             }
         }
 
-        sp.setGrade("등급없음");
-        return sp;
+        throw new RuntimeException("등급이 맞지 않습니다.");
     }
 }

@@ -49,12 +49,8 @@ public class ScorePerson {
 
     public boolean isRemovedPlayer() {
         int wednesdayCnt = dayCount.get(Day.wednesday);
-        int saturdayCnt = dayCount.get(Day.saturday);
-        int sundayCnt = dayCount.get(Day.sunday);
+        int weekendCnt = dayCount.get(Day.saturday) + dayCount.get(Day.sunday);
 
-        if (wednesdayCnt != 0 || saturdayCnt != 0 || sundayCnt != 0)
-            return false;
-
-        return Objects.equals(grade, "NORMAL");
+        return wednesdayCnt == 0 && weekendCnt == 0 && Objects.equals(grade, "NORMAL");
     }
 }

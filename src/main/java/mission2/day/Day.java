@@ -15,6 +15,7 @@ public enum Day {
                 return day;
             }
         }
-        throw new RuntimeException();
+
+        throw new RuntimeException("Day형식이 맞지 않습니다.");
     }
 }

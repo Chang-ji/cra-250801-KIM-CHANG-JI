@@ -7,11 +7,8 @@ import mission2.score.ScoreCalculator;
 public class Attendance_mission2 {
     public static final String SRC_MAIN_RESOURCES_ATTENDANCE_WEEKDAY_500_TXT = "src/main/resources/attendance_weekday_500.txt";
 
-
     public static void main(String[] args) {
         FileProcess fileProcess = new FileProcess(SRC_MAIN_RESOURCES_ATTENDANCE_WEEKDAY_500_TXT);
-
-        // 기본적이 점수 계산
         ScoreCalculator scoreCalculator = new ScoreCalculator();
         GradeEvaluator gradeEvaluator = new GradeEvaluator();
 
